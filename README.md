@@ -12,3 +12,6 @@
      do valor solicitado. Taxas e parcelas influenciam.
      Defina arbitrariamente as faixas que influenciam
      nos valores.
+
+   * Cria uma aplicação que calcula a área dos 3 quadriláteros notáveis: quadrado, retângulo e trapézio.
+      * Obs: Use sobrecarga.
