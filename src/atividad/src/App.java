@@ -9,6 +9,7 @@ public class App {
         Calculadora.multiplicacao(10, 5);
         Calculadora.divisao(10, 5);
 
+        System.out.println("----------------------------------");
         System.out.println("Execicios da menssagem");
         Mensagem.obterMensagem(5);
         Mensagem.obterMensagem(0);
@@ -17,6 +18,7 @@ public class App {
         Mensagem.obterMensagem(15);
         Mensagem.obterMensagem(6);
 
+        System.out.println("----------------------------------");
         System.out.println("Execicios da Enprestimoo");
         Emprestino.Calcular(500, 2);
         Emprestino.Calcular(500, 10);
@@ -24,7 +26,12 @@ public class App {
         Emprestino.Calcular(500, 11);
         Emprestino.Calcular(500, 3);
         Emprestino.Calcular(500, 6);
-        Emprestino.Calcular(500, 5);
-        Emprestino.Calcular(500, 4);
+
+        System.out.println("----------------------------------");
+        System.out.println("Execicios da Sobrecarga");
+        Quadrilatero.area(2);
+        Quadrilatero.area(2, 3);
+        Quadrilatero.area(3, 5, 6);
+        Quadrilatero.area(2.5, 1.5);
     }
 }
